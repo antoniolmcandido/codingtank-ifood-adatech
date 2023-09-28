@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cálculo do IMC</title>
+  </head>
+  <body>
+    <h1>Cálculo do IMC</h1>
+    <h2>Autor: Leonardo Souza</h2>
+    <hr>
+
+    <label for="peso">Peso:</label>
+    <input type="number" id="peso" placeholder="0.00" autofocus> Kgs
+
+    <br><br>
+
+    <label for="altura">Altura:</label>
+    <input type="number" id="altura" placeholder="0.00"> cm
+
+    <br><br>
+
+    <button onclick="calcularImc()">Calcular IMC</button>
+
+    <hr>
+    Resultado: <span id="result"></span>
+    <hr>
+
+    <script src="imc.js"></script>
+  </body>
+</html>
